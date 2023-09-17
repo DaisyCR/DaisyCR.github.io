@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: nesFont;
+  src: url(public/kongtext.ttf);
+}
+
+*{
+  font-family: nesFont;
+  margin: 0;
+  box-sizing: border-box;
+}
