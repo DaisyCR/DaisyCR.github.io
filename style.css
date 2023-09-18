@@ -1,14 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@font-face {
-  font-family: nesFont;
-  src: url(public/kongtext.ttf);
-}
-
 *{
-  font-family: nesFont;
+  font-family: 'Press Start 2P', cursive;
   margin: 0;
   box-sizing: border-box;
+}
+
+body{
+  width: 100vw;
+  height: 100vh;
 }
