@@ -15,6 +15,7 @@
     "vite": "^4.4.5"
   },
   "dependencies": {
-    "nes.css": "^2.3.0"
+    "nes.css": "^2.3.0",
+    "nes.icons": "^2.0.1"
   }
 }

@@ -1,24 +1,52 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <!-- <link rel="icon" type="image/svg+xml" href="/*.svg" /> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./node_modules/nes.css/css/nes.min.css" />
+    <link
+      href="https://unpkg.com/nes.icons@latest/css/nes-icons.min.css"
+      rel="stylesheet"
+    />
     <title>Portfolio</title>
   </head>
   <body>
-    <nav>
-       <i class="nes-icon github is-large"></i>
-       <i class="nes-icon linkedin is-large"></i>
-       <i class="nes-icon gmail is-large"></i>
-    </nav>
-    <div class="uppercase">
-      <h2>Oi, eu sou a Daisy</h2>
-      <h1 class="">Software Developer</h1>
-      <h2>Tenho 21 anos sou desenvolvedora de software e jogos</h2>
-      <h2>Estudo ciencia da computação</h2>
-    </div>
+    <main class="w-9/12 mx-auto">
+      <!-- navbar -->
+      <nav class="flex pt-8 justify-between">
+        <p class="text-3xl">DR</p>
+        <ul class="flex">
+          <li class="pt-4 mr-4">
+            <a class=" no-underline text-base text-gray-800" href="#">Sobre Mim</a></li>
+          <li class="pt-4 mr-4">
+            <a class="no-underline text-base text-gray-800" href="#">Projetos</a></li>
+          <li class="pt-4 mr-4">
+            <a class="no-underline text-base text-gray-800" href="#">Contato</a></li>
+          <li><a class="no-underline text-base text-gray-800 nes-btn" href="#">Currículo</a></li>
+        </ul>
+      </nav>
+      
+      <!-- contact icons -->
+      <div class="flex h-[800px] ml-1">
+        <div class="flex flex-col py-8 justify-end">
+          <i class="mt-4 nes-icon github-square is-medium"></i>
+          <i class="mt-4 nes-icon linkedin is-medium"></i>
+          <i class="mt-4 nes-icon envelope is-medium"></i>
+        </div>
+
+        <!-- hero info -->
+        <div>
+          <div class="mt-48 pl-8 border-l-4 border-gray-800">
+            <div>
+              <h2 class="text-2xl">Oi! Eu sou</h2>
+              <h1 class="uppercase text-7xl">Daisy Reis</h1>
+              <h2 class="text-2xl w-3/5">Software Engineer & Game Developer</h2>
+            </div>
+            <a class="nes-btn" href="#">Baixar Currículo</a>
+          </div>
+        </div>
+    </main>
   </body>
 </html>
