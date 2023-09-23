@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -12,24 +12,29 @@
     />
     <title>Portfolio</title>
   </head>
-  <body>
-    <main class="w-9/12 mx-auto">
+  <body class=" text-text">
+    <main class="w-9/12 mx-auto mb-32">
       <!-- navbar -->
       <nav class="flex pt-8 justify-between">
-        <p class="text-3xl">DR</p>
+        <p class="text-3xl text-text">DR</p>
         <ul class="flex">
           <li class="pt-4 mr-4">
-            <a class=" no-underline text-base text-gray-800" href="#">Sobre Mim</a></li>
+            <a class="no-underline text-text" href="#">Sobre Mim</a>
+          </li>
           <li class="pt-4 mr-4">
-            <a class="no-underline text-base text-gray-800" href="#">Projetos</a></li>
+            <a class="no-underline text-text" href="#">Projetos</a>
+          </li>
           <li class="pt-4 mr-4">
-            <a class="no-underline text-base text-gray-800" href="#">Contato</a></li>
-          <li><a class="no-underline text-base text-gray-800 nes-btn" href="#">Currículo</a></li>
+            <a class="no-underline text-text" href="#">Contato</a>
+          </li>
+          <li>
+            <a class="no-underline text-text nes-btn" href="#">Currículo</a>
+          </li>
         </ul>
       </nav>
-      
-      <!-- contact icons -->
+
       <div class="flex h-[800px] ml-1">
+        <!-- contact icons -->
         <div class="flex flex-col py-8 justify-end">
           <i class="mt-4 nes-icon github-square is-medium"></i>
           <i class="mt-4 nes-icon linkedin is-medium"></i>
@@ -38,7 +43,7 @@
 
         <!-- hero info -->
         <div>
-          <div class="mt-48 pl-8 border-l-4 border-gray-800">
+          <div class="mt-48 pl-8 border-l-4 border-text">
             <div>
               <h2 class="text-2xl">Oi! Eu sou</h2>
               <h1 class="uppercase text-7xl">Daisy Reis</h1>
@@ -47,6 +52,120 @@
             <a class="nes-btn" href="#">Baixar Currículo</a>
           </div>
         </div>
+      </div>
+
+      <!-- about me -->
+      <div>
+        <h3 class="text-2xl mt-16 mb-4 border-l-4 pl-8 border-text">Sobre mim</h3>
+        <div class="flex message-left">
+          <div class="rounded-full container overflow-hidden aspect-square">
+            <img
+              src="public/avatar-img.jpg"
+              alt=""
+              class="object-cover h-full w-auto"
+            />
+          </div>
+          <div class="nes-balloon from-left h-fit">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
+              voluptatibus magnam! Labore itaque rem id iste ullam excepturi,
+              exercitationem nam. Impedit dolore, nesciunt dignissimos veniam
+              ducimus voluptatibus quo quasi molestias.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- projects -->
+      <div class="flex flex-col">
+        <h3 class="mt-32 mb-4 border-l-4 pl-8 text-2xl border-text">Projetos</h3>
+        <ul class="flex">
+          <li class="w-2/6 h-auto mr-4">
+            <img
+              src="public/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
+              alt=""
+              class="aspect-video pb-4 object-cover rounded-lg"
+            />
+            <div class="nes-container with-title">
+              <p class="title">Lorem Ipsum</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, voluptatibus magnam! Labore itaque rem id iste ullam
+                excepturi, exercitationem nam. Impedit dolore, nesciunt
+                dignissimos veniam ducimus voluptatibus quo quasi molestias.
+              </p>
+              <a href="#" class="text-accent">Link para o projeto</a>
+            </div>
+          </li>
+
+          <li class="w-2/6 h-auto mr-4">
+            <img
+              src="public/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
+              alt=""
+              class="aspect-video pb-4 object-cover rounded-lg"
+            />
+            <div class="nes-container with-title">
+              <p class="title">Lorem Ipsum</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, voluptatibus magnam! Labore itaque rem id iste ullam
+                excepturi, exercitationem nam. Impedit dolore, nesciunt
+                dignissimos veniam ducimus voluptatibus quo quasi molestias.
+              </p>
+              <a href="#" class="text-accent">Link para o projeto</a>
+            </div>
+          </li>
+
+          <li class="w-2/6 h-auto">
+            <img
+              src="public/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
+              alt=""
+              class="aspect-video pb-4 object-cover rounded-lg"
+            />
+            <div class="nes-container with-title">
+              <p class="title">Lorem Ipsum</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Maiores, voluptatibus magnam! Labore itaque rem id iste ullam
+                excepturi, exercitationem nam. Impedit dolore, nesciunt
+                dignissimos veniam ducimus voluptatibus quo quasi molestias.
+              </p>
+              <a href="#" class="text-accent">Link para o projeto</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+      <!-- contact -->
+      <div>
+        <h3 class="text-2xl mt-32 mb-4 border-l-4 pl-8 border-text">Contato</h3>
+        <div class="flex justify-between">
+          <div class="w-3/4 mr-4">
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+              vero porro hic distinctio eligendi iure necessitatibus reiciendis
+              dolorem aspernatur maxime dolor laboriosam molestiae cupiditate
+              alias consectetur excepturi inventore dignissimos cum.
+            </p>
+            <div class="flex mt-8">
+              <i class="mt-4 nes-icon gmail is-medium"></i>
+              <div class="ml-4">
+                <p class="m-0">mail me at</p>
+                <a href="#" class="text-accent">daisy.cerqueira.reis@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <form action="" class="nes-field space-y-4 > * + * w-full">
+            <input type="text" class="nes-input" placeholder="Full Name" />
+            <input type="email" class="nes-input" placeholder="Email" />
+            <textarea
+              class="nes-textarea h-4/6"
+              placeholder="Message"
+            ></textarea>
+            <button type="button" class="nes-btn">Contact me</button>
+          </form>
+        </div>
+      </div>
     </main>
   </body>
 </html>
