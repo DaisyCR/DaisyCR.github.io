@@ -13,156 +13,197 @@
     <title>Portfolio</title>
   </head>
   <body class="text-text">
-    <main class="mx-3 mb-32 w:fill lg:w-9/12 lg:mx-auto">
+    <main
+      class="mx-1 sm:mx-3 lg:mx-8 my-4 w:fill 2xl:w-4/5 2xl:mx-auto nes-container !p-2 sm:!p-4 xl:!p-6"
+    >
       <!-- navbar -->
-      <nav class="flex justify-center pt-8 md:justify-between" >
-        <p class="text-3xl text-text">DR</p>
+      <nav class="flex justify-between pt-8">
+        <p class="px-2 text-2xl sm:text-3xl text-text border-x-4 border-text">
+          DR
+        </p>
+        <i class="ml-8 nes-icon cog"></i>
       </nav>
 
-      <div class="flex h-[800px] ml-1">
-        <!-- contact icons -->
-        <div class="flex flex-col justify-end py-8">
-          <i class="mt-4 nes-icon github-square is-medium"></i>
-          <i class="mt-4 nes-icon linkedin is-medium"></i>
-          <i class="mt-4 nes-icon envelope is-medium"></i>
+      <div>
+        <!-- hero info -->
+        <div
+          class="pb-8 mx-auto mt-16 text-center border-b-4 lg:w-2/3 border-text"
+        >
+          <div class="mb-8">
+            <h2 class="md:text-2xl">Oi! Eu sou</h2>
+            <h1 class="text-3xl uppercase md:text-5xl xl:7xl">Daisy Reis</h1>
+            <h2 class="md:text-2xl">Software Engineer & Game Developer</h2>
+          </div>
+          <a class="text-sm nes-btn is-primary" href="#">Baixar Currículo</a>
         </div>
 
-        <!-- hero info -->
-        <div>
-          <div class="pl-8 mt-32 border-l-4 lg:mt-48 border-text">
-            <div>
-              <h2 class="md:text-xl lg:text-2xl">Oi! Eu sou</h2>
-              <h1 class="text-3xl uppercase md:text-6xl md">
-                Daisy Reis
-              </h1>
-              <h2 class="w-3/5 md:text-xl lg:text-2xl">
-                Software Engineer & Game Developer
-              </h2>
-            </div>
-            <a class="text-sm nes-btn" href="#">Baixar Currículo</a>
-          </div>
+        <!-- links -->
+        <div class="flex justify-center mt-8">
+          <a
+            href="https://github.com/DaisyCR"
+            target="_blank"
+            class="text-text hover:text-text"
+            ><i class="nes-icon github-square is-medium"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/daisy-cerqueira-reis/"
+            target="_blank"
+            ><i class="ml-4 sm:ml-8 nes-icon linkedin is-medium"></i
+          ></a>
+          <a href="#" target="_blank"
+            ><i class="ml-4 sm:ml-8 nes-icon gmail is-medium"></i
+          ></a>
         </div>
       </div>
 
       <!-- about me -->
       <div>
-        <h3 class="pl-8 mt-16 mb-4 border-l-4 md:text-2xl border-text">
-          Sobre mim
-        </h3>
-        <div class="flex flex-col-reverse lg:flex-row message-left">
-          <div
-            class="container overflow-hidden w-1/2 h-full rounded-full lg:w-auto lg:mt-32 aspect-square"
-          >
-            <img
-              src="public/avatar-img.jpg"
-              alt=""
-              class="object-cover w-auto h-full"
-            />
-          </div>
-          <div class="mt-4 w-auto h-fit nes-balloon from-left">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores,
-              voluptatibus magnam! Labore itaque rem id iste ullam excepturi,
-              exercitationem nam. Impedit dolore, nesciunt dignissimos veniam
-              ducimus voluptatibus quo quasi molestias.
-            </p>
+        <h3 class="mt-16 mb-4 md:text-2xl border-text"># Perfil</h3>
+        <div>
+          <div class="w-fit h-fit nes-balloon from-left">
+            <div class="flex flex-col lg:flex-row">
+              <div
+                class="container overflow-hidden !p-1 lg:mr-4 max-w-xs nes-container is-rounded aspect-square mx-auto lg:mx-0 mb-4 lg:my-auto"
+              >
+                <img
+                  src="public/avatar-img-2.jpg"
+                  alt=""
+                  class="object-cover w-full h-full rounded-xl"
+                />
+              </div>
+              <div class="my-auto ml-4">
+                <p>
+                  Olá! Eu sou uma Engenheira de Software com conhecimento em
+                  tecnologias diversas pra desenvolvimento Web:
+                </p>
+                <div class="mt-4 ml-8 lists">
+                  <ul class="space-y-2 nes-list is-disc">
+                    <li>Java + Spring Boot</li>
+                    <li>Node.js + TypeScript</li>
+                    <li>React.js + Tailwind CSS</li>
+                    <li>Vite</li>
+                    <li>Entre outras</li>
+                  </ul>
+                </div>
+                <p class="mb-0">
+                  Também tenho interesse na área de jogos e experiência com a
+                  biblioteca
+                  <a href="https://www.lwjgl.org/">LWJGL</a> e a engine
+                  <a href="https://godotengine.org/">Godot</a>.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
 
       <!-- projects -->
       <div class="flex flex-col">
-        <h3 class="pl-8 mt-32 mb-4 border-l-4 md:text-2xl border-text">
-          Projetos
-        </h3>
-        <ul class="flex flex-col lg:flex-row">
-          <li class="h-auto md:w-3/4 md:mx-auto lg:w-2/6">
+        <h3 class="mt-8 mb-4 md:text-2xl border-text"># Projetos</h3>
+        <ul class="flex flex-col xl:flex-row">
+          <li class="h-auto md:w-11/12 md:mx-auto xl:w-2/6">
             <img
               src="public/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
               alt=""
               class="object-cover pb-4 rounded-lg aspect-video"
             />
             <div class="nes-container with-title">
-              <p class="title">Lorem Ipsum</p>
+              <p class="title">Game Engine</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, voluptatibus magnam! Labore itaque rem id iste ullam
-                excepturi, exercitationem nam. Impedit dolore, nesciunt
-                dignissimos veniam ducimus voluptatibus quo quasi molestias.
+                Engine pra jogos 2D de código aberto, escrita em Java com a
+                biblioteca <a href="https://www.lwjgl.org/">LWJGL</a>. Ela
+                inclui um editor visual de fases feito com
+                <a href="https://github.com/SpaiR/imgui-java">ImGui</a> e
+                suporte ao motor de física
+                <a href="https://github.com/jbox2d/jbox2d">JBox2d</a>.
               </p>
-              <a href="#" class="text-accent">Link para o projeto</a>
+              <a
+                href="https://github.com/DaisyCR/game-engine-2d"
+                target="_blank"
+                class="mx-auto w-full nes-btn is-primary"
+                >Link para o projeto</a
+              >
             </div>
           </li>
 
-          <li class="my-4 h-auto lg:my-0 lg:mx-4 md:w-3/4 md:mx-auto lg:w-2/6">
+          <li
+            class="my-4 h-auto xl:my-0 xl:mx-4 md:w-11/12 md:mx-auto xl:w-2/6"
+          >
             <img
               src="public/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
               alt=""
               class="object-cover pb-4 rounded-lg aspect-video"
             />
             <div class="nes-container with-title">
-              <p class="title">Lorem Ipsum</p>
+              <p class="title">Cardápio</p>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, voluptatibus magnam! Labore itaque rem id iste ullam
-                excepturi, exercitationem nam. Impedit dolore, nesciunt
-                dignissimos veniam ducimus voluptatibus quo quasi molestias.
+                Landing page para o cardápio online de restaurante fictício
+                feita com HTML e a biblioteca
+                <a href="https://picocss.com/" target="_blank">PicoCSS</a>. Foi
+                realizado como atividade no curso
+                <a href="https://jabrasil.org.br/elasnatech23/">Elas na Tech</a
+                >, feito em parceria com a CCR Metrô e a IBM.
               </p>
-              <a href="#" class="text-accent">Link para o projeto</a>
+              <a
+                href="https://daisycr.github.io/cardapio-em-html/"
+                target="_blank"
+                class="mx-auto w-full nes-btn is-primary"
+                >Link para o projeto</a
+              >
             </div>
           </li>
 
-          <li class="h-auto md:w-3/4 md:mx-auto lg:w-2/6">
+          <li class="h-auto md:w-11/12 md:mx-auto xl:w-2/6">
             <img
               src="public/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
               alt=""
               class="object-cover pb-4 h-auto rounded-lg aspect-video"
             />
             <div class="nes-container with-title">
-              <p class="title">Lorem Ipsum</p>
+              <p class="title">Site obs</p>
               <p class>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Maiores, voluptatibus magnam! Labore itaque rem id iste ullam
-                excepturi, exercitationem nam. Impedit dolore, nesciunt
-                dignissimos veniam ducimus voluptatibus quo quasi molestias.
+                Site. Foi realizado como atividade no curso
+                <a href="https://jabrasil.org.br/elasnatech23/">Elas na Tech</a
+                >, feito em parceria com a CCR Metrô e a IBM.
               </p>
-              <a href="#" class="text-accent">Link para o projeto</a>
+              <a
+                href="https://daisycr.github.io/site-de-ods/"
+                class="mx-auto w-full nes-btn is-primary"
+                >Link para o projeto</a
+              >
             </div>
           </li>
         </ul>
       </div>
 
       <!-- contact -->
-      <div>
-        <h3 class="pl-8 mt-32 mb-4 border-l-4 lg:text-2xl border-text">
+      <div class="flex flex-col justify-center">
+        <h3
+          class="pb-4 mx-auto mt-8 mb-5 w-2/3 text-center border-b-4 lg:text-2xl border-text"
+        >
           Contato
         </h3>
-        <div class="flex flex-col justify-between lg:flex-row">
-          <div class="mr-4 w-3/4">
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-              vero porro hic distinctio eligendi iure necessitatibus reiciendis
-              dolorem aspernatur maxime dolor laboriosam molestiae cupiditate
-              alias consectetur excepturi inventore dignissimos cum.
-            </p>
-            <div class="flex mt-8">
-              <i class="mt-4 nes-icon gmail is-medium"></i>
-              <div class="my-4 ml-8">
-                <p class="m-0">mail me at</p>
-                <a href="#" class="text-xs"
-                  >daisy.cerqueira.reis@gmail.com</a
-                >
-              </div>
+        <div
+          class="flex flex-col-reverse justify-between mx-auto w-full lg:w-5/6 2xl:w-2/3"
+        >
+          <div class="flex md:mx-auto">
+            <i class="nes-icon gmail"></i>
+            <div class="ml-4">
+              <p class="m-0 text-xs">Alternativamente, mande um e-mail para</p>
+              <a href="#" class="text-xs">daisy.cerqueira.reis@gmail.com</a>
             </div>
           </div>
-          <form action="" class="nes-field space-y-4 > * + * w-full">
+
+          <form action="" class="flex flex-col mb-4 space-y-4 w-full nes-field">
             <input type="text" class="nes-input" placeholder="Full Name" />
             <input type="email" class="nes-input" placeholder="Email" />
             <textarea
-              class="h-4/6 nes-textarea"
+              class="h-48 nes-textarea"
               placeholder="Message"
             ></textarea>
-            <button type="button" class="w-full lg:w-fit nes-btn">Contact me</button>
+            <button type="button" class="sm:w-full nes-btn is-primary">
+              Enviar Mensagem
+            </button>
           </form>
         </div>
       </div>
