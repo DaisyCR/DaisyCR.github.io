@@ -6,13 +6,7 @@ export default {
       colors: {
         text: "#212529",
       },
-    },
-
-    screens: {
-      'tablet': '640px',
-      'laptop': '1024px',
-      'desktop': '1280px',
-    },
+    }
   },
   plugins: [],
 };
