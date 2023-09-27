@@ -6,7 +6,7 @@ export default {
       colors: {
         text: "#212529",
       },
-    }
+    },
   },
   plugins: [],
 };
