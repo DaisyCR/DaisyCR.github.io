@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <title>Portfolio</title>
-    <link rel="stylesheet" href="/assets/index-ea98ab20.css">
+    <link rel="stylesheet" href="/assets/index-d2ed19f8.css">
   </head>
   <body class="text-text">
     <main
@@ -36,7 +36,7 @@
           </div>
           <a
             class="text-sm nes-btn is-primary"
-            href="public\resume.pdf"
+            href="/resume.pdf"
             download="daisy-cerqueira-reis-curriculo-09-23"
             >Baixar Currículo</a
           >
@@ -108,9 +108,9 @@
         <ul class="flex flex-col h-full xl:flex-row">
           <li class="h-auto md:w-11/12 md:mx-auto xl:w-2/6">
             <img
-              src="/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
+              src="/game-engine.png"
               alt=""
-              class="object-cover pb-4 rounded-lg aspect-video"
+              class="object-cover pb-4 h-1/2 rounded-lg aspect-video"
             />
             <div class="nes-container with-title">
               <p class="title">Game Engine</p>
@@ -125,34 +125,32 @@
               <a
                 href="https://github.com/DaisyCR/game-engine-2d"
                 target="_blank"
-                class="w-full mx-auto nes-btn is-primary"
+                class="mx-auto w-full nes-btn is-primary"
                 >Link para o projeto</a
               >
             </div>
           </li>
 
           <li
-            class="h-auto my-4 xl:my-0 xl:mx-4 md:w-11/12 md:mx-auto xl:w-2/6"
+            class="my-4 h-auto xl:my-0 xl:mx-4 md:w-11/12 md:mx-auto xl:w-2/6"
           >
             <img
-              src="/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
+              src="/cardapio.png"
               alt=""
-              class="object-cover pb-4 rounded-lg aspect-video"
+              class="object-cover pb-4 h-1/2 rounded-lg aspect-video"
             />
             <div class="nes-container with-title">
               <p class="title">Cardápio</p>
               <p class="xl:h-64">
                 Landing page para o cardápio online de restaurante fictício
-                feita com HTML e a biblioteca
-                <a href="https://picocss.com/" target="_blank">PicoCSS</a>. Foi
-                realizado como atividade no curso
+                feita com HTML e CSS. Foi realizado como atividade no curso
                 <a href="https://jabrasil.org.br/elasnatech23/">Elas na Tech</a
                 >, feito em parceria com a CCR Metrô e a IBM.
               </p>
               <a
                 href="https://daisycr.github.io/cardapio-em-html/"
                 target="_blank"
-                class="w-full mx-auto nes-btn is-primary"
+                class="mx-auto w-full nes-btn is-primary"
                 >Link para o projeto</a
               >
             </div>
@@ -160,21 +158,22 @@
 
           <li class="h-auto md:w-11/12 md:mx-auto xl:w-2/6">
             <img
-              src="/ravi-palwe-_JTF0Prc7jc-unsplash.jpg"
+              src="/site-ods.png"
               alt=""
-              class="object-cover h-auto pb-4 rounded-lg aspect-video"
+              class="object-cover pb-4 h-1/2 rounded-lg aspect-video"
             />
             <div class="nes-container with-title">
-              <p class="title">Site obs</p>
+              <p class="title">Site ODS</p>
               <p class="xl:h-64">
                 Single page sobre um dos objetivos de desenvolvimento
-                sustentável feita com HTML, CSS e Javascript. Foi realizado como atividade no curso
+                sustentável feita com HTML, CSS e Javascript. Foi realizado como
+                atividade no curso
                 <a href="https://jabrasil.org.br/elasnatech23/">Elas na Tech</a
                 >, feito em parceria com a CCR Metrô e a IBM.
               </p>
               <a
                 href="https://daisycr.github.io/site-de-ods/"
-                class="w-full mx-auto nes-btn is-primary"
+                class="mx-auto w-full nes-btn is-primary"
                 >Link para o projeto</a
               >
             </div>
@@ -183,30 +182,49 @@
       </div>
 
       <!-- contact -->
-      <div class="flex flex-col justify-center">
+      <div class="flex flex-col justify-center mt-16">
         <h3
-          class="w-2/3 pb-4 mx-auto mt-8 mb-5 text-center border-b-4 lg:text-2xl border-text"
+          class="pb-4 mx-auto mt-8 mb-5 w-2/3 text-center border-b-4 lg:text-2xl border-text"
         >
           Contato
         </h3>
-        <div class="flex flex-col-reverse justify-between w-full mx-auto lg:w-5/6 2xl:w-2/3">
-            <div class="flex flex-col justify-center">
-              <p class="m-0 text-xs text-center">Ou mande um e-mail para</p>
-              <a
-                href="mailto:daisy.cerqueira.reis@gmail.com"
-                target="_blank"
-                class="text-[0.6rem] text-center"
-                >daisy.cerqueira.reis@gmail.com</a
-              >
-            </div>
-          <form action="" class="flex flex-col w-full mb-4 space-y-4 nes-field">
-            <input type="text" class="nes-input" placeholder="Full Name" />
-            <input type="email" class="nes-input" placeholder="Email" />
+        <div
+          class="flex flex-col-reverse justify-between mx-auto w-full lg:w-5/6 2xl:w-2/3"
+        >
+          <div class="flex flex-col justify-center">
+            <p class="m-0 text-xs text-center">Ou mande um e-mail para</p>
+            <a
+              href="mailto:daisy.cerqueira.reis@gmail.com"
+              target="_blank"
+              class="text-[0.6rem] text-center"
+              >daisy.cerqueira.reis@gmail.com</a
+            >
+          </div>
+          <form
+            action="https://formspree.io/f/moqopdoy"
+            method="POST"
+            class="flex flex-col mb-4 space-y-4 w-full nes-field"
+          >
+            <input
+              type="text"
+              name="fullName"
+              class="nes-input"
+              placeholder="Full Name"
+              required
+            />
+            <input
+              type="email"
+              name="email"
+              class="nes-input"
+              placeholder="Email"
+              required
+            />
             <textarea
               class="h-48 nes-textarea"
+              name="message"
               placeholder="Message"
             ></textarea>
-            <button type="button" class="sm:w-full nes-btn is-primary">
+            <button type="submit" class="sm:w-full nes-btn is-primary">
               Enviar Mensagem
             </button>
           </form>
